@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization - Homework 6 - The State of the State of the State </title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="scripts/script.js"></script>
+	<script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-force.v2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+</head>
+<body>
+<div id="header-wrap">
+    <header>
+        <h1>The State of the State of the States</h1>
+        <div>Name: Aaron Van Cleave; E-Mail: avanclea@cs.uoregon.edu; UO ID: 951604863</div>
+    </header>
+</div>
+
+<svg id="tableSVG" width = "800" height = "10000">
+	
+	<g id="headers" transform="translate(0, 10)">
+		<g transform="translate(10, 0)">
+			<rect class="header_rect" width="180" height="30"/>
+			<text x="65" y="20">Phrase</text>
+		</g>
+		<g transform="translate(200, 0)">
+			<rect class="header_rect" width="150" height="30"/>
+			<text x="40" y="20">Frequency</text>
+		</g>
+		<g transform="translate(360, 0)">
+			<rect class="header_rect" width="150" height="30"/>
+			<text x="40" y="20">Percentages</text>
+		</g>
+		<g transform="translate(520, 0)">
+			<rect class="header_rect" width="150" height="30"/>
+			<text x="55" y="20">Total</text>
+		</g>
+	</g>
+	
+	
+	<g id="phraseTable" transform="translate(10, 57)">
+	  
+	</g>
+	
+	<g id="frequencyTable" transform="translate(200, 45)">
+	  
+	</g>
+	
+	<g id="percentTable1" transform="translate(434, 45)">
+	  
+	</g>
+	
+	<g id="percentTable2" transform="translate(436, 45)">
+	  
+	</g>
+	
+	<g id="countTable" transform="translate(580, 45)">
+	  
+	</g>
+	
+	<g id="totalTable" transform="translate(590, 57)">
+	  
+	</g>
+
+
+
+
+</svg>
+
+</body>
+</html>
